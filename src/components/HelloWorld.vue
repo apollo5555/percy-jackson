@@ -36,10 +36,9 @@ export default {
   props: {
     msg: String
   }
-}
 mounted(){
   this.msg = "PERCY!";
-}
+}}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
